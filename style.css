@@ -393,7 +393,7 @@ section:nth-child(2n + 1) {
 #contact {
   background-color: #0abcf9;
   background-image: url("https://i.pinimg.com/originals/6c/29/d7/6c29d7a340c38d33ba8af95a1e9c93a3.jpg");
- background-size: cover;
+  background-size: cover;
   color: white;
   padding-bottom: 40px;
   display: flex;
@@ -576,6 +576,11 @@ button:focus {
   width: 50%;
 }
 
+.heading-1 {
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
 @media only screen and (max-width: 572px) {
   .timeline-box {
     width: 100%;
@@ -588,6 +593,9 @@ button:focus {
 
   .nav-menu {
     display: none;
+  }
+  .heading-1{
+    text-align: center;
   }
 }
 
