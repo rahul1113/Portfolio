@@ -124,6 +124,12 @@ body::-webkit-scrollbar {
   margin-bottom: 0.5rem;
   font-family: "Montez", cursive;
 }
+.dividerLight {
+  background-color: white;
+  width: 50%;
+  height: 2px;
+  margin: 0 auto !important;
+}
 
 .social-icons li a i {
   padding: 10px;
@@ -193,13 +199,15 @@ section:nth-child(2n + 1) {
 
 #about-para {
   padding: 10px;
-  width: 70%;
+  width: 75%;
   text-align: justify;
   color: grey;
   line-height: 28px;
   font-size: 1.1rem;
   margin: auto;
   z-index: 3;
+  bottom: 6;
+  position: relative;
 }
 
 /*Skills Section*/
